@@ -14,7 +14,7 @@ public class LoadAssets : MonoBehaviour
 
 
         // Instantiate redObj at (0, 0, 0) with no rotation
-        Instantiate(redObj, Vector3.zero, Quaternion.identity);
+        Instantiate(redObj, new Vector3(2, 0, 0), Quaternion.identity);
 
         // Instantiate blueObj at (-2, 0, 0) with no rotation
         Instantiate(blueObj, new Vector3(-2, 0, 0), Quaternion.identity);
